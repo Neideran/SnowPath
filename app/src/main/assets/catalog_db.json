@@ -1,0 +1,124 @@
+{
+"catalog" : [
+  {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/general_catalog%2Fex_skis_catalog.png?alt=media&token=b34f8f84-4c43-476c-b67d-e18e2295cb17",
+      "name": "Горные лыжи",
+      "parent": "null"
+  },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/general_catalog%2Fex_snowboards_catalog.png?alt=media&token=00f6f90e-777d-4f06-9187-49f92fc413c7",
+      "name": "Сноуборд",
+      "parent": "null"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/general_catalog%2Fex_clothes_catalog.png?alt=media&token=beb2becb-beb4-40b5-b969-b5c21dc580fa",
+      "name": "Одежда",
+      "parent": "null"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/general_catalog%2Fex_hm_catalog.png?alt=media&token=ee6e8a51-f04a-4415-a227-d498825864e7",
+      "name": "Шлемы, маски",
+      "parent": "null"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/general_catalog%2Fex_accessories_catalog.png?alt=media&token=ca78c976-dbe3-47b5-9242-59f6daf609f0",
+      "name": "Аксессуары",
+      "parent": "null"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_ski%2Fski_ski_catalog.png?alt=media&token=fa3130da-8f5d-45cf-8df2-d2321023ce06",
+      "name": "Лыжи",
+      "parent": "Горные лыжи"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_ski%2Fski_boots_catalog.png?alt=media&token=5d8b7b01-7715-43fd-8dd8-6e16b19b8274",
+      "name": "Горнолыжные ботинки",
+      "parent": "Горные лыжи"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_ski%2Fski_fixture_catalog.png?alt=media&token=62e4a13c-f7af-42bb-9732-6c8922e6c1aa",
+      "name": "Горнолыжные крепления",
+      "parent": "Горные лыжи"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_ski%2Fski_sticks_catalog.png?alt=media&token=5f37c2da-3de6-4b10-8f2a-549c014765c3",
+      "name": "Горнолыжные палки",
+      "parent": "Горные лыжи"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_snowboards%2Fsnowboard_snowboards_catalog.png?alt=media&token=3c350973-50c6-4c6f-a938-37acb63d1653",
+      "name": "Сноуборды",
+      "parent": "Сноуборд"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_snowboards%2Fsnowboard_boots_catalog.png?alt=media&token=cee35560-cf50-4c16-8b54-ef9cde19a826",
+      "name": "Ботинки",
+      "parent": "Сноуборд"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_snowboards%2Fsnowboard_fixture_catalog.png?alt=media&token=04444034-29ca-437c-b46e-9a5ac44fcb6d",
+      "name": "Крепления",
+      "parent": "Сноуборд"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_snowboards%2Fsnowboard_protection_catalog.png?alt=media&token=42dd6409-0650-4232-ade8-7abbe4bcc00a",
+      "name": "Защита",
+      "parent": "Сноуборд"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_clothes%2Fclothes_jackets_catalog.png?alt=media&token=22454d02-0974-4c3a-bcb6-01d6985a84df",
+      "name": "Куртки",
+      "parent": "Одежда"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_clothes%2Fclothes_hoodies_catalog.png?alt=media&token=0cc86cbe-9e4e-43ee-90d5-d345c50409f1",
+      "name": "Толстовки",
+      "parent": "Одежда"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_clothes%2Fclothes_trousers_catalog.png?alt=media&token=41d7be79-3f3f-4435-a6ca-6e4765da28de",
+      "name": "Брюки",
+      "parent": "Одежда"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_clothes%2Fclothes_rompers_catalog.png?alt=media&token=a744d5d7-c001-402c-87f2-a6ff8ade1d07",
+      "name": "Комбинезоны",
+      "parent": "Одежда"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_clothes%2Fclothes_layered_catalog.png?alt=media&token=f8861c33-b467-4cef-9119-7dffd67406d9",
+      "name": "Термобелье",
+      "parent": "Одежда"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_hm%2Fhm_helmets_catalog.png?alt=media&token=4411d2ad-7529-4c84-9cad-8a75c07bb475",
+      "name": "Шлемы",
+      "parent": "Шлемы, маски"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_hm%2Fhm_masks_catalog.png?alt=media&token=ab3eb1b4-ef17-405e-9c92-bf1862c9c80c",
+      "name": "Маски",
+      "parent": "Шлемы, маски"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_hm%2Fhm_accessories_catalog.png?alt=media&token=30ee361c-4e17-489f-85f8-7da3c46bd3af",
+      "name": "Аксессуары и запчасти",
+      "parent": "Шлемы, маски"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_accessories%2Faccessories_backpack_catalog.png?alt=media&token=3914aedb-f010-440a-b5b1-756df438e370",
+      "name": "Рюкзаки",
+      "parent": "Аксессуары"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_accessories%2Faccessories_bags_catalog.png?alt=media&token=ca0e6b6d-a997-406a-9441-6c4b7ceb6371",
+      "name": "Сумки",
+      "parent": "Аксессуары"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/snowpath-3c582.appspot.com/o/catalog_accessories%2Faccessories_cases_catalog.png?alt=media&token=231325ac-da18-4599-8a46-52835e1cac34",
+      "name": "Чехлы",
+      "parent": "Аксессуары"
+    }
+  ]
+}

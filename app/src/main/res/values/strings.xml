@@ -1,0 +1,127 @@
+<resources>
+
+    <string name="app_name">SnowPath</string>
+    <string name="logo">Логотип</string>
+    <string name="picture">Заставка</string>
+    <string name="main">Главная</string>
+    <string name="one_two_three">123</string>
+    <string name="RUB">₽</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="preview">Превью</string>
+    <string name="about_us_description_text">SnowPath</string>
+    <string name="category">Выберите категорию</string>
+    <string name="choose_item">Выберите товар</string>
+    <string name="item">Товар</string>
+    <string name="category_description">Описание категории</string>
+    <string name="example">Пример</string>
+    <string name="_null_">0</string>
+
+
+    <!--Меню и Поиск-->
+    <string name="catalog">Каталог</string>
+    <string name="cart">Корзина</string>
+    <string name="liked">Избранное</string>
+    <string name="about_us">О нас</string>
+    <string name="main_search">Поиск по категориям</string>
+    <string name="catalog_search">Поиск по каталогу</string>
+    <string name="item_search">Поиск по товарам</string>
+    <string name="main_picture">Картинка</string>
+
+
+    <!--Сортировка-->
+    <string name="sort">Сортировка</string>
+    <string name="price">Цена</string>
+    <string name="price_P">Цена (₽)</string>
+    <string name="size">Размер</string>
+    <string name="color">Цвет</string>
+    <string name="season">Сезон</string>
+    <string name="brand">Бренд</string>
+    <string name="sex">Пол</string>
+    <string name="show_results">Показать результаты</string>
+    <string name="cancel">Сбросить</string>
+    <string name="cheap_first_items">Сначала дешевые</string>
+    <string name="expensive_first_items">Сначала дорогие</string>
+    <string name="by_name">По имени</string>
+    <string name="by_default">По умолчанию</string>
+    <string name="new_first_items">По сезону</string>
+    <string name="apply_sort">Применить сортировку</string>
+
+
+    <!--Категории-->
+    <string name="mount_ski_multiple">Горные лыжи</string>
+    <string name="ski">Лыжи</string>
+    <string name="snowboard_multiple">Сноуборды</string>
+    <string name="snowboard_single">Сноуборд</string>
+    <string name="clothes">Одежда</string>
+    <string name="helmets_masks">Шлемы, маски</string>
+    <string name="helmet_single">Шлем</string>
+    <string name="helmet_multiple">Шлемы</string>
+    <string name="mask_single">Маска</string>
+    <string name="mask_multiple">Маски</string>
+    <string name="accessory_multiple">Аксессуары</string>
+    <string name="accessory_single">Аксессуар</string>
+    <string-array name="category_snowboard">
+        <item name="snowboard_fixture">Крепления</item>
+        <item name="snowboard_boots">Ботинки</item>
+        <item name="snowboard_protection">Защита</item>
+    </string-array>
+
+    <!--Каталог Лыжи-->
+    <string name="ski_boots">Горнолыжные ботинки</string>
+    <string name="ski_fixture">Горнолыжные крепления</string>
+    <string name="ski_sticks">Горнолыжные палки</string>
+
+    <!--Каталог Одежда-->
+    <string name="clothes_trousers">Брюки</string>
+    <string name="clothes_jackets">Куртки</string>
+    <string name="clothes_layered">Термобелье</string>
+    <string name="clothes_rompers">Комбинезоны</string>
+    <string name="clothes_hoodies">Толстовки</string>
+
+    <!--Каталог Маски и Шлемы-->
+    <string name="masks_masks">Маски</string>
+    <string name="masks_helmets">Шлемы</string>
+    <string name="masks_accessories">Аксессуары и запчасти</string>
+
+    <!--Каталог Аксессуары-->
+    <string name="accessories_backpacks">Рюкзаки</string>
+    <string name="accessories_bags">Сумки</string>
+    <string name="accessories_cases">Чехлы</string>
+
+    <!--Функциональные-->
+    <string name="reload">Перезагрузить</string>
+    <string name="add_to_cart">В корзину</string>
+    <string name="add_to_liked">В избранное</string>
+    <string name="delete_from_liked">Удалить из избранного</string>
+    <string name="delete_from_cart">Удалить из корзины</string>
+    <string name="go_to_execution">Перейти к оформлению</string>
+    <string name="execute_order">Оформить заказ</string>
+    <string name="call_us">Позвонить нам</string>
+
+    <!--Корзина и Оформление-->
+    <string name="exec">Оформление заказа</string>
+    <string name="enter_user_info">Введите контактные данные</string>
+    <string name="user_name">ФИО</string>
+    <string name="user_phone">Телефон</string>
+    <string name="user_email">Email</string>
+    <string name="user_address">Адрес доставки</string>
+    <string name="purchase_price">Стоимость:</string>
+    <string name="delivery_price_detail">Стоимоть доставки:</string>
+    <string name="delivery_price">Доставка:</string>
+    <string name="total_price">Итого:</string>
+    <string name="title_activity_catalog">Catalog</string>
+    <string name="title_home">Home</string>
+    <string name="item_price">Стоимость:</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--О нас-->
+    <string name="description_about_us">SnowPath — это настоящий бренд эксперт в зимнем спорте и активном отдыхе, который вдохновляет своих покупателей, мотивирует их и помогает регулярно выбираться в горы, чтобы радоваться жизни и менять себя к лучшему день за днем!</string>
+    <string name="info_about_us">ООО “Cноу Пас”</string>
+    <string name="address_about_us">Юридический адрес:	117437,г. Москва, ул. Миклухо-Маклая, д. 18 к. 2 ком. 102</string>
+    <string name="phone_about_us">Телефон: +7 (495) 755 81 79</string>
+    <string name="email_about_us">E-mail: support@snowpath.ru</string>
+    <string name="me_about_us">Проект выполнил студент группы ИНБО–02–20 Горбунов Я. А.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

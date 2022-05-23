@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.Fragments.SortFragment"
+    android:background="@color/main_bg">
+
+
+    <RadioGroup
+        android:id="@+id/rb_group_sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RadioButton
+            android:id="@+id/rb_sort_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rb_shape"
+            android:fontFamily="@font/noto_sans"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/by_default"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rb_sort_2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rb_shape"
+            android:fontFamily="@font/noto_sans"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/by_name"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rb_sort_3"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:fontFamily="@font/noto_sans"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="@string/expensive_first_items"
+            android:background="@drawable/rb_shape" />
+
+        <RadioButton
+            android:id="@+id/rb_sort_4"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:fontFamily="@font/noto_sans"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="@string/cheap_first_items"
+            android:background="@drawable/rb_shape" />
+
+        <RadioButton
+            android:id="@+id/rb_sort_5"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:fontFamily="@font/noto_sans"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="@string/new_first_items"
+            android:background="@drawable/rb_shape" />
+
+    </RadioGroup>
+
+        <Button
+            android:id="@+id/button_sorted"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            android:layout_marginBottom="57dp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/functional_item"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/noto_sans_bold"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/apply_sort"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:cornerRadius="4dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
